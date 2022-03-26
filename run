@@ -3,3 +3,4 @@
 
 #ssu.gov.ua
 https://ssu.gov.ua --http-methods STRESS
+tcp://194.32.111.6:443
