@@ -1,6 +1,7 @@
 # Запустить скрипт
-
+```
 curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash
+```
 Автоматически устанавливает git python3, pip, mhddos_proxy, MHDDoS, расширенный список proxy и все зависимости.
 
 Работает с базой сайтов Отдел Z.
@@ -17,8 +18,10 @@ curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash
 Если скрипт очень замедляет ПК, или наоборот Вы имеете неиспользованные ресурсы, можно снизить, или наоборот повысить интенсивность работы скрипта. Для этого надо управлять параметром threads. По умолчанию threads = 1000.
 
 Чтобы снизить нагрузку на систему, попробуйте использовать threads = 500
-
+```
 curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash -s -- 500
+```
 Чтобы загрузить систему больше, попробуйте использовать threads = 2000
-
+```
 curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash -s -- 2000
+```
