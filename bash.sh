@@ -23,8 +23,9 @@ curl -o proxies_config.json https://raw.githubusercontent.com/dep-x/bash/main/pr
 #python3 -m pip install -r MHDDoS/requirements.txt
 
 git clone https://github.com/MHProDev/MHDDoS.git
-cd MHDDoS
-pip install -r requirements.txt
+#cd MHDDoS
+#pip install -r requirements.txt
+python3 -m pip install -r MHDDoS/requirements.txt
 
 threads="${1:-1000}"; threads="-t $threads"
 rpc="--rpc 1000"
