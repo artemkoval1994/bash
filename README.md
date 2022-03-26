@@ -1,6 +1,6 @@
 # Запустить скрипт
 
-curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/bash.sh | bash
+curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash
 Автоматически устанавливает git python3, pip, mhddos_proxy, MHDDoS, расширенный список proxy и все зависимости.
 
 Работает с базой сайтов Отдел Z.
@@ -18,7 +18,7 @@ curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/bash.sh | 
 
 Чтобы снизить нагрузку на систему, попробуйте использовать threads = 500
 
-curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/bash.sh | bash -s -- 500
+curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash -s -- 500
 Чтобы загрузить систему больше, попробуйте использовать threads = 2000
 
-curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/bash.sh | bash -s -- 2000
+curl -s https://raw.githubusercontent.com/dep-x/bash/master/bash.sh | bash -s -- 2000
