@@ -7,9 +7,9 @@ sudo apt install gcc libc-dev libffi-dev libssl-dev python3-dev rustc -qq -y
 sudo pip install --upgrade pip
 
 cd ~
-sudo rm -r mhddos_proxy
+sudo rm -r proxy
 git clone https://github.com/dep-x/proxy.git
-cd mhddos_proxy
+cd proxy
 # for avoid installing wget, otherwise it need to be added in install section
 rm proxies_config.json
 curl -o proxies_config.json https://raw.githubusercontent.com/dep-x/bash/main/proxies_config.json 
