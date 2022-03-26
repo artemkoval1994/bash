@@ -8,7 +8,7 @@ sudo pip install --upgrade pip
 
 cd ~
 sudo rm -r mhddos_proxy
-git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
+git clone https://github.com/dep-x/proxy.git
 cd mhddos_proxy
 # for avoid installing wget, otherwise it need to be added in install section
 rm proxies_config.json
