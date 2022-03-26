@@ -18,7 +18,7 @@ curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/runner.sh 
 
 Чтобы снизить нагрузку на систему, попробуйте использовать threads = 500
 
-curl -s https://raw.githubusercontent.com/KarboDuck/mhddos_bash/master/runner.sh | bash -s -- 500
+curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/runner.sh | bash -s -- 500
 Чтобы загрузить систему больше, попробуйте использовать threads = 2000
 
-curl -s https://raw.githubusercontent.com/KarboDuck/mhddos_bash/master/runner.sh | bash -s -- 2000
+curl -s https://raw.githubusercontent.com/gruzilkinnn/dev_bash/master/runner.sh | bash -s -- 2000
